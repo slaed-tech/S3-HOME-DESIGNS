@@ -219,6 +219,18 @@ footer .footer__wrap {
 }
 
 /* MEDIA REQUESTS */
+@media screen and (min-width: 1280px) {
+    .container {
+        max-width: 1110px;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    .container {
+        max-width: 1110px;
+    }
+}
+
 @media screen and (max-width: 1110px) {
     .container {
         max-width: 960px;
@@ -233,7 +245,7 @@ footer .footer__wrap {
 
 @media screen and (max-width: 640px) {
     .container {
-        max-width: 480px;
+        max-width: calc(100% - 20px);
     }
     .logo {
         height: 58px;
@@ -247,13 +259,10 @@ footer .footer__wrap {
 }
 
 @media screen and (max-width: 480px) {
-    .container {
-        max-width: 320px;
-    }
     .hero .hero__title {
         max-width: 286px;
     }
-    .media img:not(:last-child) {
+    .media img:not(:last-child), .media .preview {
         margin-bottom: 20px;
     }
 }
