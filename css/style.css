@@ -138,8 +138,8 @@ header .header__wrap {
             justify-content: center;
 }
 
-header .logo {
-    margin: 0 auto;
+.logo {
+    height: 64px;
 }
 
 /* HERO */
