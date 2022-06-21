@@ -115,15 +115,8 @@ section, header, footer, main {
     transition: all .5s ease;
 }
 
-.social-btn:hover .ico {
-    margin-right: 15px;
-}
-
 .social-btn:hover {
     background-color: var(--soft-black);
-    -webkit-transform: scale(0.94);
-        -ms-transform: scale(0.94);
-            transform: scale(0.94);
 } 
 
 /* HEADER */
@@ -169,9 +162,6 @@ header .logo {
 .media img {
     width: 100%;
     height: auto;
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
 }
 
 .media img:not(:last-child) {
@@ -262,5 +252,8 @@ footer .footer__wrap {
     }
     .hero .hero__title {
         max-width: 286px;
+    }
+    .media img:not(:last-child) {
+        margin-bottom: 20px;
     }
 }
